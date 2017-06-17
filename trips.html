@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Trips</title>
+	<link rel="stylesheet" type="text/css" href="trips.css">
+</head>
+<body>
+<div class="planner">
+<h1>Plan Your Trip</h1>
+<p>Focus on the journey, not the destination. Joy is found not in finishing an activity but in doing it. Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles must begin with a single step.</p>
+<form action="trips1.php" method="post">
+	Departing on: <input type="date" name="departing"><br>
+	Returning on: <input type="date" name="returning"><br>
+	Travelling to: <input type="text" name="place"><br>
+	<input type="submit" name="submit" value="Plan Trip">
+</form>
+</div>
+
+<div class="see">
+    <h1>See upcoming trips</h1>
+	<table border="2">
+		<thead>
+			<tr>
+				<th>Sr. no. </th>
+				<th>Departure   </th>
+				<th>Return      </th>
+				<th>Destination </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>date</td>
+				<td>date</td>
+				<td>place</td>
+			</tr>
+			<tr>
+				<td>2</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="3.js"></script>
+</body>
+</html>

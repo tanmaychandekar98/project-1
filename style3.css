@@ -1,0 +1,94 @@
+body{
+	
+    background-image: url("predator.jpg");
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*h1,h3{
+  border: 3px white solid;*/
+
+}
+h1{
+	text-align: center;
+	border: 2px white solid;
+	float: right;
+}
+h3{
+	text-align: center;
+	padding-left: 20px;
+	height: 300px;
+	width: 600px;
+	font-size: 36px;
+	
+}
+h4{
+	float: right;
+	border: 2px solid white;
+	margin-top: 0px;
+	padding: 10px;
+}
+.logout:active{
+	position: relative;
+	top: 3px;
+	
+
+}
+.logout:hover{
+	cursor: hand;
+	cursor: pointer;
+}
+#accounts{
+	background-image: url("accounts.jpg");
+	background-size: cover;
+}
+#trips{
+	background-image: url("trip.jpg");
+	background-size: 100%;
+
+}
+#calendar{
+	background-image: url("calendar.jpg");
+	background-size: 100%;
+
+}
+#accounts,#trips,#calendar{
+	transition: all .2s ease-in-out;
+}
+#accounts:hover,#trips:hover,#calendar:hover{
+	transform: scale(1.1);
+cursor: pointer; cursor: hand;
+}
+img{
+	width: 100%;
+	margin:0;
+	float: left;
+}
+.next {
+	height: 1000px;
+	/*border: 2px white solid;*/
+	margin-top: 800px;
+	margin-right: 0;
+	margin-bottom: 0;
+	background-image: url("1.jpg");
+	background-attachment: fixed;
+}
+.next h2{
+	margin-left: 30px;
+	margin-top: 150px;
+	background-size: 100%;
+	/*border: 2px white solid;*/
+}
+p{
+	margin-top: 750px;
+	margin-left: 30px;
+}
+.next2{
+	height: 1000px;
+	background-image: url("lion.jpg");
+	background-attachment: fixed;
+}
+.next3{
+	height: 70px;
+	

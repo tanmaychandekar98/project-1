@@ -1,0 +1,13 @@
+body{
+	background-color: cyan;
+	font-family: Georgia;
+	border: 2px solid white;
+	border
+}
+.nav h3{
+	padding: 5px;
+	border: 2px solid white;
+}
+.title h2{
+	margin-left: 500px;
+}
